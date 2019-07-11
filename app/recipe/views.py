@@ -21,6 +21,7 @@ class TagViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateMo
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
 
+
 class IngredientViewSet(viewsets.GenericViewSet,
                         mixins.ListModelMixin, mixins.CreateModelMixin):
     """Manage ingredients in the database"""
