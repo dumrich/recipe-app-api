@@ -1,3 +1,3 @@
 # recipe-app-api
-https://travis-ci.org/dumrich/stock-api.svg?branch=master
+[![Build Status](https://travis-ci.org/dumrich/stock-api.svg?branch=master)](https://travis-ci.org/dumrich/stock-api)
 Recipie
